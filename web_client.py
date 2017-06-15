@@ -8,7 +8,7 @@ It uses requests to retrieve and decode json data
 '''
 
 url = 'http://api.fixer.io/latest'
-base_currencies = ['GBP','USD','CAD']
+base_currencies = ['GBP','USD','AUD']
 rate_in = 'CAD'
 
 def get_exchange_rates(currency,rate_in):
